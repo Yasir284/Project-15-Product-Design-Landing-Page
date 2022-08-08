@@ -1,20 +1,20 @@
 ![badge](https://img.shields.io/badge/MADE%20WITH-HTML%20%26%20CSS-blue)
 ![badge](https://img.shields.io/badge/TIME%20TAKEN-5--6hrs-red)
-[![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://project14-08822.netlify.app/)
+[![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://project15-08822.netlify.app/)
 
-# Project-14: Dance Home Landing Page
+# Project-15: Product Design Landing Page
 
-- This project is a Dance Home landing page.This website is designed using pure HTML and CSS.
+- This project is a Product Design landing page.This website is designed using pure HTML and CSS.
 
 - It took me 5-6hrs to make this project.Please find link of the project below:
 
-[![badge](https://img.shields.io/badge/LINK%20OF-PROJECT--14-orange)](https://project14-08822.netlify.app/)
+[![badge](https://img.shields.io/badge/LINK%20OF-PROJECT--15-black)](https://project15-08822.netlify.app/)
 
 ---
 
 ## Screenshot
 
-![App Screenshot](./images/project-14ss.png)
+![App Screenshot](./images/project-15ss.png)
 
 ---
 

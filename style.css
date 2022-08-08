@@ -397,7 +397,7 @@ footer {
 }
 
 .media-links {
-    margin-left: 25rem;
+    margin: auto;
     display: flex;
     flex-direction: row;
     gap: 1.5rem;

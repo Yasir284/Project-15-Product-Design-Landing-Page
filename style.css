@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Montserrat:wght@100;400;700;900&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    padding: 0%;
+    margin: 0%;
+    outline: 0ch;
+    background-color: #111111;
+}
+
+/* HERO SECTION */
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1% 5% 1% 5%;
+}
+
+.logo {
+    width: 8%;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}

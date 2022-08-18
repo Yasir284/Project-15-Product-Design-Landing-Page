@@ -259,10 +259,10 @@ body {
 }
 
 .view {
-    padding: 12px 25px;
+    padding: 0.8em 1.5em;
     color: #fff;
     background: #FF3343;
-    border: none;
+    border: 1px solid #FF3343;
     cursor: pointer;
     transition: all 300ms ease-in-out;
 }
@@ -283,6 +283,8 @@ body {
 }
 
 .projects-div {
+    margin: 0 auto;
+    max-width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -292,7 +294,6 @@ body {
 }
 
 .projects {
-    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,9 +311,16 @@ body {
     font-weight: 600;
 }
 
+.projects p i {
+    transition: all 300ms ease-in-out;
+}
+
+.projects p:hover i {
+    transform: translateX(0) translateX(1rem);
+}
+
 .project-image {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background: #1e1e1e;
@@ -325,24 +333,34 @@ body {
 }
 
 .img1 {
-    width: 100%;
+    display: block;
+    width: 18rem;
+    object-fit: cover;
+    height: 10rem;
 }
 
 .img2 {
-    width: 100%;
+    display: block;
+    width: 18rem;
+    object-fit: cover;
+    height: 10rem;
 }
 
 .img3 {
-    width: 100%;
+    display: block;
+    width: 18rem;
+    height: 10rem;
+    object-fit: cover;
 }
 
 .img4 {
-    width: 100%;
+    display: block;
+    width: 18rem;
+    height: 10rem;
+    object-fit: cover;
 }
 
 /* <!-- CONTACT SECTION --> */
-
-
 .contact {
     margin: 6% 13%;
     padding: 5%;
@@ -364,10 +382,10 @@ body {
 
 .contact-btn {
     margin-left: 12%;
-    padding: 12px 25px;
+    padding: 0.8em 1.5em;
     color: #fff;
     background: #FF3343;
-    border: none;
+    border: 1px solid #FF3343;
     cursor: pointer;
     transition: all 300ms ease-in-out;
 }
@@ -409,6 +427,11 @@ footer {
 
 .footer-logo {
     width: 8%;
+    transition: all 300ms ease-in-out;
+}
+
+.footer-logo:hover {
+    transform: scale(1) scale(1.2, 1.2);
 }
 
 .media-links {
@@ -420,4 +443,140 @@ footer {
 
 .media-links a img {
     width: 80%;
+    transition: transform 300ms ease-in-out;
+}
+
+.media-links a img:hover {
+    transform: scale(1) scale(1.4, 1.4);
+    filter: invert(41%) sepia(71%) saturate(4542%) hue-rotate(341deg) brightness(106%) contrast(88%);
+}
+
+
+/* ==========BREAKINGPOINT FOR TABLETS ========== */
+
+@media (max-width:768px) {
+    html {
+        font-size: 12px
+    }
+}
+
+/* ==========BREAKINGPOINT FOR MOBILES ========== */
+
+@media (max-width:480px) {
+    html {
+        font-size: 10px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        margin-bottom: 10%;
+        padding: 5%;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+        filter: invert(41%) sepia(71%) saturate(4542%) hue-rotate(341deg) brightness(106%) contrast(88%);
+    }
+
+    .main {
+        margin-bottom: 5%;
+    }
+
+    /* <!-- FEATURES --> */
+    .features {
+        margin-bottom: 10%;
+    }
+
+    /* <!-- ACHIEVMENTS --> */
+    .achivments {
+        padding: 0%;
+        flex-direction: column;
+    }
+
+    .achivments2 {
+        width: auto;
+    }
+
+    /* <!-- PROJECTS --> */
+    #projects-section {
+        padding: 0%;
+        margin-top: 10%;
+    }
+
+    .projects-header {
+        margin-bottom: 5%;
+        padding: 0%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .projects-heading {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .projects-div {
+        width: 80%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .projects {
+        padding: 2rem;
+        border-radius: 5px;
+        background: #1e1e1e;
+        align-items: center;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .projects h3 {
+        font-size: 1.5rem;
+    }
+
+    /* <!-- CONTACT SECTION --> */
+    .contact {
+        flex-direction: column;
+        margin: 6% 0;
+
+    }
+
+    .contact-left {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .contact-left h1 {
+        font-size: 2rem;
+    }
+
+    .contact-btn {
+        margin: auto;
+    }
+
+    /* FOOTER */
+    footer {
+        justify-content: space-between;
+    }
+
+    .footer-logo {
+        width: 15%;
+    }
+
+    .media-links {
+        margin: 0%;
+        text-align: center;
+    }
+
+    .media-links a img {
+        width: 50%;
+    }
 }
